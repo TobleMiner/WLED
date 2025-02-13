@@ -107,9 +107,9 @@ const ethernet_settings ethernetBoards[] = {
 
   // ABC! WLED Controller V43 + Ethernet Shield & compatible
   {
-    1,                    // eth_address, 
-    5,                    // eth_power, 
-    23,                   // eth_mdc, 
+    0,                    // eth_address, 
+    13,                    // eth_power, 
+    14,                   // eth_mdc, 
     33,                   // eth_mdio, 
     ETH_PHY_LAN8720,      // eth_type,
     ETH_CLOCK_GPIO17_OUT	// eth_clk_mode
